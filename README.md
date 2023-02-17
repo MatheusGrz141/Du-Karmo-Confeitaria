@@ -1,7 +1,7 @@
 <h1 align="center"> DU'Karmo Confeitaria </h1>
 
 <p align="center">
-Cardápio digital feito para a empresa Du'Karmo Confeitaria , visando uma maior facilidade para os clientes terem acesso a todos os tipos de bolos e doces feitos pela empresa.
+Cardápio digital feito para a empresa Du'Karmo Confeitaria
 </p>
 
 <p align="center">
