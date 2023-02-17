@@ -8,8 +8,8 @@
 }
 :root {
   --text-color: rgb(255, 255, 255);
-
-  --stroke-color: rgba(142, 138, 138, 0.479);
+  --bag-color: rgb(10, 14, 2);
+  --stroke-color: rgba(5, 3, 3, 0.479);
   --surface-color: rgb(255, 255, 255, 0.1);
   --surface-color-houver: rgba(255, 255, 255, 0.02);
   --high-light-color: rgba(255, 255, 255, 0.2);
@@ -18,14 +18,14 @@
 
 body {
   
-  background-color: rgb(13, 16, 1);
+  background-color: var(--bag-color);
   background-repeat: no-repeat;
   background-size: cover;
 }
 body * {
   
   font-family: "Inter", sans-serif;
-  color: rgb(189, 204, 217);
+  color: rgb(149, 152, 140);
   text-align: center;
 }
 
@@ -120,12 +120,34 @@ transition: 0.5s;
   background-color: var(--high-light-color);
   padding: 16px;
 }
-
-@keyframes slide-in {
-  from {
-    left: 50%;
+@media (max-width: 700px) {
+ 
+  body{
+    background-color: var(--bag-color);
   }
-  to {
-    left: 0;
+   .produtos{
+   
+     display: flex;
+    flex-direction: column;
+  }
+  .produto{
+   
+    padding: 0;
+  }
+  .produto img{
+    padding: 0;
+    margin: 0;
+    border: 3px solid var(--border-color);
+    min-height: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+   
+    transition: 0.5s;
+  }
+  .produto a {
+  
+    padding: 0;
+    margin: 0;
   }
 }
