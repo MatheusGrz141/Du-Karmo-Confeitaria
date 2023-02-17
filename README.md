@@ -32,7 +32,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Cardápio digital feito para a empresa Du'Karmo Confeitaria , visando uma maior facilidade para os clientes terem acesso a todos os tipos de bolos e doces feitos pela empresa.
 
-
+- [Visite o projeto online](https://matheusgrz141.github.io/Du-Karmo-Confeitaria)
 
 ## :memo: Licença
 
