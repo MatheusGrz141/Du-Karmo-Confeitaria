@@ -16,7 +16,7 @@ Cardápio digital feito para a empresa Du'Karmo Confeitaria
 
 <br>
 <p align="center">
-  <img alt="Tela principal da página para Desktop" src=".Github/bk.png" width="100%">
+  <img alt="Tela principal da página para Desktop" src=".github/bk.png" width="100%">
 </p>
 
 
