@@ -125,10 +125,16 @@ body * {
   }
   .produtos {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
+    align-items: baseline;
+    
+    
   }
+
   .produto {
     padding: 0;
+    display: flex;
+    
   }
   .produto img {
     padding: 0;
@@ -142,7 +148,14 @@ body * {
     transition: 0.5s;
   }
   .produto a {
+  
     padding: 0;
     margin: 0;
+  }
+  span{
+    display: inline;
+    align-self: last baseline;
+    text-align: end;
+    
   }
 }
