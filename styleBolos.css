@@ -17,7 +17,7 @@ body {
 }
 #bolos {
   font-family: "Shantell Sans", cursive;
-  font-size: 90px;
+  font-size: 50px;
 
   text-align: center;
 }
@@ -51,6 +51,7 @@ body {
   }
   #bolos {
     margin-bottom: 40px;
+    font-size: 2.5rem;
   }
   .bolosAlones {
     display: flex;
