@@ -1,0 +1,80 @@
+*{
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+body{ 
+    background-color: var(  --bag-color);
+}
+:root {
+    --text-color: rgb(255, 255, 255);
+    --bag-color: rgb(10, 14, 2);
+    --stroke-color: rgba(5, 3, 3, 0.479);
+    --surface-color: rgb(255, 255, 255, 0.1);
+    --surface-color-houver: rgba(255, 255, 255, 0.02);
+    --high-light-color: rgba(255, 255, 255, 0.2);
+    --border-color: rgb(60, 78, 9);
+  }
+  #bolos {
+  font-family: "Shantell Sans", cursive;
+  font-size: 90px;
+
+  text-align: center;
+}
+.bolosAlone {
+
+  display: flex;
+gap: 30px;
+padding: 20px;
+}
+.bolosAlone img {
+    border-radius: 50px;
+ margin: 30px;
+  width: 20%;
+  height: 20%;
+  transition: 0.5s;
+}
+.bolosAlone img:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+   
+  }
+.bolosAlone p {
+  font-size: 20px;
+  align-items: center;
+  padding: 20px;
+  width: 50%;
+}
+@media (max-width: 700px) {
+  body {
+    background-color: var(--bag-color);
+  }
+  #bolos{
+    margin-bottom: 40px;
+  }
+  .bolosAlones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+  }
+  .bolosAlone {
+    padding: 0;
+  }
+  .bolosAlone img {
+    padding: 0;
+    margin: 0;
+    border: 3px solid var(--border-color);
+    min-height: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+
+    transition: 0.5s;
+  }
+  .bolosAlone a {
+    padding: 0;
+    margin: 0;
+  }
+}
+
