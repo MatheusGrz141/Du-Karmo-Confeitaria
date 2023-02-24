@@ -40,20 +40,17 @@ body {
   transition: 0.5s;
 }
 .bolosAlone .texto {
-
   font-size: 20px;
   align-items: center;
   margin-top: 50px;
   height: 250px;
   width: 90%;
-
-}.bolosAlone .texto h1 {
+}
+.bolosAlone .texto h1 {
   padding: 20px;
-
 }
 .bolosAlone .texto p {
   padding: 20px;
-
 }
 @media (max-width: 700px) {
   body {
@@ -64,36 +61,35 @@ body {
     font-size: 2.5rem;
   }
   .bolosAlones {
-  padding-bottom: 80px;
-   
+    padding-bottom: 80px;
   }
   .bolosAlone {
-   margin: auto;
-   width: fit-content;
-   gap: 20px;
+    margin: auto;
+    width: fit-content;
+   padding-bottom: 40px;
   }
-
 
   .bolosAlone img {
-    margin-left: 0;
-    padding-left: 0;
-    margin-right: 0;
-    border: 3px solid var(--border-color);
-    min-height: 50px;
     width: 200px;
     height: 200px;
-    border-radius: 20px;
 
     transition: 0.5s;
+    margin: 0;
+    padding: 0;
   }
-  .bolosAlone .texto h1 {
+
+.bolosAlone .texto  {
   margin: 0;
   padding: 0;
+  
+}
+  .bolosAlone .texto h1 {
+    margin: 0;
+    padding: 0;
   
   }
   .bolosAlone .texto p {
     margin: 0;
     padding: 0;
-  
   }
 }
